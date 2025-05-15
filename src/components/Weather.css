@@ -76,3 +76,54 @@
     width: 26px;
     margin-top: 10px;
 }
+/* --- Your existing styles above --- */
+
+/* Responsive for mobile screens */
+@media (max-width: 600px) {
+  .weather {
+    padding: 20px;
+  }
+
+  .search-bar input {
+    height: 40px;
+    font-size: 16px;
+    padding-left: 15px;
+  }
+
+  .search-bar img {
+    width: 40px;
+    padding: 10px;
+  }
+
+  .weather-icon {
+    width: 100px;
+    margin: 20px 0;
+  }
+
+  .temperature {
+    font-size: 50px;
+  }
+
+  .location {
+    font-size: 24px;
+  }
+
+  .weather-data {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .weather-data .col {
+    font-size: 18px;
+    align-items: center;
+  }
+
+  .weather-data .col img {
+    width: 22px;
+    margin-top: 0;
+  }
+
+  .weather-data .col span {
+    font-size: 14px;
+  }
+}
